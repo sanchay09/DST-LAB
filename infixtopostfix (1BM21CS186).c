@@ -131,13 +131,6 @@ printf("\nInvalid infix Expression.\n");
 getchar();
 exit(1);
 }
-if(top>0)
-{
-printf("\nInvalid infix Expression.\n");
-getchar();
-exit(1);
-}
-
 
 postfix_exp[j] = '\0';
 }
